@@ -205,7 +205,9 @@ ul li img.tw {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 73px 0 73px 30px;
+  padding: 73px 0 73px 0;
+  width: 35%;
+  min-height: 700px;
 }
 
 .chat-part #wrapper {
@@ -242,7 +244,6 @@ ul li img.tw {
   margin-top: 5px;
   margin-bottom: 20px;
   background-size: cover;
-/*  background: url(https://i.ytimg.com/vi/UMs3Y600wOI/maxresdefault.jpg) no-repeat center;*/
   background: url(../img/profile-pic.png) top center;
 }
 
@@ -326,10 +327,12 @@ ul li img.tw {
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
 }
+
 .img-message {
   border-radius: 4px;
   max-width: 100%;
 }
+
 @-webkit-keyframes sk-bouncedelay {
   0%,
   80%,
@@ -360,7 +363,7 @@ ul li img.tw {
 
 .buttons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .btn-wrapper {
@@ -368,7 +371,6 @@ ul li img.tw {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-right: 80px;
   cursor: pointer;
 }
 

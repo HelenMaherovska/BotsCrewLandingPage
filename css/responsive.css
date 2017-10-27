@@ -98,7 +98,7 @@
   .banner-content {
     width: calc(100vw - 90px);
     text-align: center;
-    margin: 200px auto;
+    margin: 300px auto;
   }
   .heading,
   .subheading {
@@ -174,7 +174,7 @@
     flex-direction: column;
   }
   .text-part {
-    padding: 120px 0 0;
+    padding: 50px 0 0;
     max-width: 100%;
     width: auto;
   }
@@ -183,9 +183,9 @@
   }
   .text-wrapper .text-lorem {
     margin: 30px 0;
-    font-weight: 100;
-    line-height: 20px;
-    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+    font-size: 14px;
     text-align: center;
   }
   .third-block .text-part .banner-btn {
@@ -198,8 +198,9 @@
   }
   .chat-part {
     padding: 0 0 70px;
-    min-height: 450px;
-    max-height: 620px;
+    min-height: 700px;
+    max-height: 770px;
+    width: 100%;
   }
   .third-block .chat-part .buttons {
     display: flex;
