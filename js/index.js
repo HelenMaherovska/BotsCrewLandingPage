@@ -135,7 +135,7 @@ $(document).ready(function () {
           $(".chat-part #wrapper").css('visibility', 'visible');
           $('ul.chat-message-list li').remove();
           showChat(shoppingChat);
-        } else {
+        } else if (wS < (hT + hH - wH)){
           $(".chat-part #wrapper").css('visibility', 'visible');
           $('ul.chat-message-list li').remove();
           showChat(foodChat);
